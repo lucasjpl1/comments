@@ -4,8 +4,8 @@ Este script Python automatiza interações no TikTok usando Selenium, incluindo 
 
 # Funcionalidades
 ===========================================================
-1 - Busca de Tema: O script inicia uma busca no TikTok com o tema fornecido.
 
+1 - Busca de Tema: O script inicia uma busca no TikTok com o tema fornecido.
 2 - Curtir Vídeos: Se o vídeo ainda não foi curtido, o script realiza essa ação.
 3 - Seguir Usuário: Caso o usuário do vídeo não esteja sendo seguido, o script realiza o "seguir".
 4 - Adicionar Comentários: Escolhe um comentário aleatório de uma lista e publica no vídeo.
