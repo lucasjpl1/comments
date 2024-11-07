@@ -10,7 +10,6 @@ Este script Python automatiza interações no TikTok usando Selenium, incluindo 
 3 - Seguir Usuário: Caso o usuário do vídeo não esteja sendo seguido, o script realiza o "seguir".
 4 - Adicionar Comentários: Escolhe um comentário aleatório de uma lista e publica no vídeo.
 5 - Controle de Tentativas: Realiza várias tentativas para ações como adicionar comentários, caso falhem inicialmente.
-===========================================================
 
 # Pré-Requisitos
 ===========================================================
