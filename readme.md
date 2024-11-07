@@ -1,10 +1,8 @@
 # Automação de Interações no TikTok com Selenium
-===========================================================<br>
 
 Este script Python automatiza interações no TikTok usando Selenium, incluindo busca por um tema específico, curtir, seguir e comentar em vídeos. O objetivo é facilitar a interação com vídeos relacionados a um tema de interesse de forma programática.
 
 # Funcionalidades
-===========================================================<br>
 
 1 - Busca de Tema: O script inicia uma busca no TikTok com o tema fornecido.<br>
 2 - Curtir Vídeos: Se o vídeo ainda não foi curtido, o script realiza essa ação.<br>
@@ -13,7 +11,6 @@ Este script Python automatiza interações no TikTok usando Selenium, incluindo 
 5 - Controle de Tentativas: Realiza várias tentativas para ações como adicionar comentários, caso falhem inicialmente.<br>
 
 # Pré-Requisitos
-===========================================================<br>
 
 Python 3.x: Instale a versão mais recente do Python em python.org.<br>
 Selenium: Instale o pacote Selenium com o comando:<br>
@@ -25,7 +22,6 @@ Perfil de Usuário do Chrome: O script usa um perfil de usuário específico do 
 
 
 # Configuração
-===========================================================<br>
 
 Atualize o caminho do ChromeDriver e do perfil de usuário no script:<br>
 python<br>
@@ -37,7 +33,6 @@ service = Service('C:/Users/User/Desktop/chromedriver-win64/chromedriver.exe')<b
 options.add_argument(r"user-data-dir=C:/Users/User/AppData/Local/Google/Chrome/User Data")<br>
 
 # Execução do Script<br>
-===========================================================<br>
 
 Para executar a automação:<br>
 Abra o terminal ou prompt de comando.<br>
@@ -49,7 +44,6 @@ python nome_do_script.py<br>
 O script começará a abrir o navegador, fazer uma busca no TikTok pelo tema fornecido e realizar as interações automaticamente.<br>
 
 # Estrutura do Código<br>
-===========================================================<br>
 
 Funções<br>
 iniciar_navegador: Configura e abre uma instância do navegador com as opções especificadas.<br>
