@@ -1,9 +1,10 @@
 # Automação de Interações no TikTok com Selenium
-===========================================================
+===========================================================<br>
+
 Este script Python automatiza interações no TikTok usando Selenium, incluindo busca por um tema específico, curtir, seguir e comentar em vídeos. O objetivo é facilitar a interação com vídeos relacionados a um tema de interesse de forma programática.
 
 # Funcionalidades
-===========================================================
+===========================================================<br>
 
 1 - Busca de Tema: O script inicia uma busca no TikTok com o tema fornecido.<br>
 2 - Curtir Vídeos: Se o vídeo ainda não foi curtido, o script realiza essa ação.<br>
@@ -12,7 +13,8 @@ Este script Python automatiza interações no TikTok usando Selenium, incluindo 
 5 - Controle de Tentativas: Realiza várias tentativas para ações como adicionar comentários, caso falhem inicialmente.<br>
 
 # Pré-Requisitos
-===========================================================
+===========================================================<br>
+
 Python 3.x: Instale a versão mais recente do Python em python.org.<br>
 Selenium: Instale o pacote Selenium com o comando:<br>
 bash<br>
@@ -23,7 +25,7 @@ Perfil de Usuário do Chrome: O script usa um perfil de usuário específico do 
 
 
 # Configuração
-===========================================================
+===========================================================<br>
 
 Atualize o caminho do ChromeDriver e do perfil de usuário no script:<br>
 python<br>
@@ -32,46 +34,47 @@ Copiar código<br>
 service = Service('C:/Users/User/Desktop/chromedriver-win64/chromedriver.exe')<br>
 
 # Configuração do perfil de usuário do Chrome
-options.add_argument(r"user-data-dir=C:/Users/User/AppData/Local/Google/Chrome/User Data")
-===========================================================
-# Execução do Script
-===========================================================
-Para executar a automação:
+options.add_argument(r"user-data-dir=C:/Users/User/AppData/Local/Google/Chrome/User Data")<br>
 
-Abra o terminal ou prompt de comando.
-Navegue até o diretório onde o script está salvo.
-Execute o script com o comando:
-bash
-Copiar código
-python nome_do_script.py
-O script começará a abrir o navegador, fazer uma busca no TikTok pelo tema fornecido e realizar as interações automaticamente.
+# Execução do Script<br>
+===========================================================<br>
 
-# Estrutura do Código
-===========================================================
-Funções
-iniciar_navegador: Configura e abre uma instância do navegador com as opções especificadas.
+Para executar a automação:<br>
+Abra o terminal ou prompt de comando.<br>
+Navegue até o diretório onde o script está salvo.<br>
+Execute o script com o comando:<br>
+bash<br>
+Copiar código<br>
+python nome_do_script.py<br>
+O script começará a abrir o navegador, fazer uma busca no TikTok pelo tema fornecido e realizar as interações automaticamente.<br>
+
+# Estrutura do Código<br>
+===========================================================<br>
+
+Funções<br>
+iniciar_navegador: Configura e abre uma instância do navegador com as opções especificadas.<br>
 automacao_tiktok: Função principal que realiza as interações no TikTok, incluindo busca, curtir, seguir e comentar em vídeos.
 
-# Comportamento do Script
-O script executa um loop contínuo que:
+# Comportamento do Script<br>
+O script executa um loop contínuo que:<br>
 
-Acessa o site do TikTok.
-Realiza uma busca com o tema especificado.
-Seleciona um vídeo aleatório da lista de resultados e interage com ele (curte, segue e comenta).
-Fecha o vídeo e volta para a lista de resultados, repetindo o processo.
-Caso o script encontre um erro de timeout ao carregar elementos, ele tenta novamente após recarregar a página.
+Acessa o site do TikTok.<br>
+Realiza uma busca com o tema especificado.<br>
+Seleciona um vídeo aleatório da lista de resultados e interage com ele (curte, segue e comenta).<br>
+Fecha o vídeo e volta para a lista de resultados, repetindo o processo.<br>
+Caso o script encontre um erro de timeout ao carregar elementos, ele tenta novamente após recarregar a página.<br>
 
-# Comentários Aleatórios
-A lista comentarios armazena comentários pré-definidos, e o script escolhe um aleatoriamente para cada vídeo. Isso ajuda a manter a interação mais natural.
+# Comentários Aleatórios<br>
+A lista comentarios armazena comentários pré-definidos, e o script escolhe um aleatoriamente para cada vídeo. Isso ajuda a manter a interação mais natural.<br>
 
-# Exceções e Tentativas
-O script trata possíveis erros, como timeouts ao carregar elementos, e tenta adicionar comentários até 3 vezes se houver falhas.
+# Exceções e Tentativas<br>
+O script trata possíveis erros, como timeouts ao carregar elementos, e tenta adicionar comentários até 3 vezes se houver falhas.<br>
 
-# Melhorias Possíveis
-Controle de Comentários Repetidos: Evitar comentários duplicados com uma lista de controle.
-Palavras-chave no Comentário: Personalizar os comentários com base nas palavras-chave da descrição do vídeo, tornando as interações mais relevantes.
+# Melhorias Possíveis<br>
+Controle de Comentários Repetidos: Evitar comentários duplicados com uma lista de controle.<br>
+Palavras-chave no Comentário: Personalizar os comentários com base nas palavras-chave da descrição do vídeo, tornando as interações mais relevantes.<br>
 
-# Observações de Uso
-Legalidade e Termos de Uso: Esse script é para fins educacionais e não deve ser usado para spam ou violação dos Termos de Serviço do TikTok.
-Riscos de Bloqueio: Automação excessiva em plataformas como TikTok pode resultar em bloqueios temporários ou permanentes da conta.
-Esse README fornece uma visão geral do script, instruções de instalação, explicação das funcionalidades e estrutura do código.
+# Observações de Uso<br>
+Legalidade e Termos de Uso: Esse script é para fins educacionais e não deve ser usado para spam ou violação dos Termos de Serviço do TikTok.<br>
+Riscos de Bloqueio: Automação excessiva em plataformas como TikTok pode resultar em bloqueios temporários ou permanentes da conta.<br>
+Esse README fornece uma visão geral do script, instruções de instalação, explicação das funcionalidades e estrutura do código.<br>
