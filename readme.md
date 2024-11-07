@@ -5,31 +5,31 @@ Este script Python automatiza interações no TikTok usando Selenium, incluindo 
 # Funcionalidades
 ===========================================================
 
-1 - Busca de Tema: O script inicia uma busca no TikTok com o tema fornecido.
-2 - Curtir Vídeos: Se o vídeo ainda não foi curtido, o script realiza essa ação.
-3 - Seguir Usuário: Caso o usuário do vídeo não esteja sendo seguido, o script realiza o "seguir".
-4 - Adicionar Comentários: Escolhe um comentário aleatório de uma lista e publica no vídeo.
-5 - Controle de Tentativas: Realiza várias tentativas para ações como adicionar comentários, caso falhem inicialmente.
+1 - Busca de Tema: O script inicia uma busca no TikTok com o tema fornecido.<br>
+2 - Curtir Vídeos: Se o vídeo ainda não foi curtido, o script realiza essa ação.<br>
+3 - Seguir Usuário: Caso o usuário do vídeo não esteja sendo seguido, o script realiza o "seguir".<br>
+4 - Adicionar Comentários: Escolhe um comentário aleatório de uma lista e publica no vídeo.<br>
+5 - Controle de Tentativas: Realiza várias tentativas para ações como adicionar comentários, caso falhem inicialmente.<br>
 
 # Pré-Requisitos
 ===========================================================
-Python 3.x: Instale a versão mais recente do Python em python.org.
-Selenium: Instale o pacote Selenium com o comando:
-bash
-Copiar código
-pip install selenium
-Chromedriver: Baixe o ChromeDriver na versão correspondente à versão do seu navegador Chrome em ChromeDriver - WebDriver for Chrome. Coloque o executável em um local conhecido e atualize o caminho no código (service = Service('Caminho/para/seu/chromedriver')).
-Perfil de Usuário do Chrome: O script usa um perfil de usuário específico do Chrome para evitar login repetido. Verifique o caminho do perfil (user-data-dir) e altere conforme necessário.
-===========================================================
+Python 3.x: Instale a versão mais recente do Python em python.org.<br>
+Selenium: Instale o pacote Selenium com o comando:<br>
+bash<br>
+Copiar código<br>
+pip install selenium<br>
+Chromedriver: Baixe o ChromeDriver na versão correspondente à versão do seu navegador Chrome em ChromeDriver - WebDriver for Chrome. Coloque o executável em um local conhecido e atualize o caminho no código (service = Service('Caminho/para/seu/chromedriver')).<br>
+Perfil de Usuário do Chrome: O script usa um perfil de usuário específico do Chrome para evitar login repetido. Verifique o caminho do perfil (user-data-dir) e altere conforme necessário.<br>
+
 
 # Configuração
 ===========================================================
 
-Atualize o caminho do ChromeDriver e do perfil de usuário no script:
-python
-Copiar código
-# Caminho para o chromedriver
-service = Service('C:/Users/User/Desktop/chromedriver-win64/chromedriver.exe')
+Atualize o caminho do ChromeDriver e do perfil de usuário no script:<br>
+python<br>
+Copiar código<br>
+# Caminho para o chromedriver<br>
+service = Service('C:/Users/User/Desktop/chromedriver-win64/chromedriver.exe')<br>
 
 # Configuração do perfil de usuário do Chrome
 options.add_argument(r"user-data-dir=C:/Users/User/AppData/Local/Google/Chrome/User Data")
