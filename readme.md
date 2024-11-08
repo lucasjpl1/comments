@@ -72,3 +72,5 @@ Palavras-chave no Comentário: Personalizar os comentários com base nas palavra
 Legalidade e Termos de Uso: Esse script é para fins educacionais e não deve ser usado para spam ou violação dos Termos de Serviço do TikTok.<br>
 Riscos de Bloqueio: Automação excessiva em plataformas como TikTok pode resultar em bloqueios temporários ou permanentes da conta.<br>
 Esse README fornece uma visão geral do script, instruções de instalação, explicação das funcionalidades e estrutura do código.<br>
+
+# Colocar o nome de usuario da conta
